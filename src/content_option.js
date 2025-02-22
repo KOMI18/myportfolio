@@ -1,144 +1,133 @@
-const logotext = "JOHN";
+const logotext = "Parfait Kom";
 const meta = {
-    title: "John Doe",
+    title: "Parfait kom",
     description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "Je suis Tehem kom parfait",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: " J'aime Coder, apprendre et évoluer",
+        second: "Développeur Web & Mobile passionné",
+        third: "Je code en Flutter, React.js et Node.js",
+        four:"Toujours en quête de nouveaux défis",
+        last:"Simplicité et efficacité avant tout"
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "Passionné par le développement web et mobile, je crée des solutions performantes et intuitives. Toujours en quête d’apprentissage et de nouveaux défis !",
+    your_img_url: "/komi.jpeg",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "Un peu sur moi",
+    aboutme: "Je suis un développeur passionné, toujours à la recherche de nouvelles technologies et de défis intéressants. Avec une expertise en Flutter, React, Node.js, et d'autres outils modernes, je suis capable de créer des applications web performantes et intuitives. Mon parcours m'a permis d'acquérir une solide expérience dans le développement de solutions full-stack, tout en gardant un œil attentif sur la qualité du code et l'optimisation des performances.Je suis également un grand défenseur de l'expérience utilisateur, cherchant toujours à créer des interfaces modernes, simples à utiliser et efficaces. En dehors du code, j'aime apprendre,faire du basket ball et collaborer avec d'autres professionnels pour créer des produits qui ont un réel impact.",
 };
-const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+const worktimeline = [
+    {
+        jobtitle: "Stagiaire Développeur web",
+        where: "TOGETTECH",
+        date: "AOUT 2023 - OCT 2023",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Développeur web & Mobile",
+        where: "TOGETTECH",
+        date: " OCT 2023 - Maintenant",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Développeur Mobile Flutter",
+        where: "TheProgrammer",
+        date: " SEP 2024 - JAN 2025",
+    },
+    {
+        jobtitle: "Développeur Mobile Flutter",
+        where: "MENOSIE",
+        date: "DEC 2024 - Maintenant",
     },
 ];
 
 const skills = [{
-        name: "Python",
-        value: 90,
+        name: "Flutter",
+        value: 100,
     },
     {
-        name: "Djano",
-        value: 85,
+        name: "Node.Js",
+        value: 100,
     },
     {
-        name: "Javascript",
-        value: 80,
+        name: "React.JS",
+        value: 100,
     },
     {
-        name: "React",
-        value: 60,
+        name: "Natif Php",
+        value: 100,
     },
     {
-        name: "Jquery",
-        value: 85,
+        name: "Git , GitHUb",
+        value: 100,
+    },
+    {
+        name: "MongoBd",
+        value: 100,
     },
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
+    title: "Création d'application mobile",
+    description: "Je conçois des applications mobiles fluides et performantes, adaptées à vos besoins et offrant une expérience utilisateur optimale. Avec des technologies modernes comme Flutter et React Native, vos idées prennent vie sur iOS et Android.",
+},
+{
+    title: "Création de sites web",
+    description: "Je crée des sites web dynamiques et réactifs, en utilisant les dernières tendances du design et des technologies comme React, Node.js et Bootstrap. Je m'assure que chaque projet est intuitif, rapide et sécurisé.",
+},
+{
+    title: "Développement d'applications web",
+    description: "Je développe des applications web sur mesure, performantes et évolutives, qui répondent aux besoins spécifiques de votre entreprise. Grâce à des technologies comme React, Express, et Sequelize, je crée des solutions robustes et scalables.",
+},
 ];
 
-const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
 
+const dataportfolio = [
+    {   
+        title:"Tecno admin",
+        img: "tecnoadmin.png",
+        description: "Une Application de gestion des vente et des stock ",
+        link: "https://incredible-concha-334bb3.netlify.app/",
+    },
     {
+        title:"Cosmopharmal industry",
+        img: "/pharmal.png",
+        description: "Un site web d'achat de concombre de mer",
+        link: "https://cosmopharmalindustry.com/",
+    },
+    {
+        title:"TogetSuite Bar",
+        img: "/bar.png",
+        description: "Un application web de gestion des Snack bar : Stock , vente , ristourne, avarie,Impot",
+        link: "https://cosmopharmalindustry.com/bragherstudio.suite-ba/pages/user_login.php",
+    },
+    {
+        title:"Silia",
         img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        description: "Une application mobile Fintech de transfer d'argent .",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        title:"SuiteSale",
+        img: "/suitesale.png",
+        description: "Une appliction web ecommerce specialise dans la vente des produit vivrie frais ",
+        link: "https://cosmopharmalindustry.com/suitesale/app/Pages/Login.php",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        title:"Expend Tracker",
+        img: "/tracker.jpeg",
+        description: "Une application mobile de gestion des depense",
+        link: "https://proejet-firebase.web.app/welcome",
     },
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "tehemparfait@gmail.com",
+    YOUR_FONE: "+237 695511268",
+    description: "Que vous ayez une question, un projet en tête, ou simplement envie de discuter de collaboration, n'hésitez pas à me contacter. Je suis toujours ouvert aux nouvelles opportunités et prêt à vous accompagner dans vos projets technologiques. Remplissez le formulaire ou contactez-moi directement par email, et je reviendrai vers vous dans les plus brefs délais ! ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -147,10 +136,10 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
+    github: "https://github.com/KOMI18",
     facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    linkedin: "https://www.linkedin.com/in/parfait-kom-a25925268/",
+    twitter: "https://x.com/ParfaitKom",
 };
 export {
     meta,

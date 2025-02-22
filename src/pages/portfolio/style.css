@@ -78,3 +78,61 @@
 .po_item .content a:hover {
     text-decoration: none;
 }
+/* Section Portfolio */
+.portfolio-section {
+    padding: 60px 0;
+  }
+  
+  .projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 20px 0;
+  }
+  
+  .project-card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .project-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 2px solid #eee;
+  }
+  
+  .project-content {
+    padding: 20px;
+  }
+  
+  .project-description {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .project-link {
+    font-weight: bold;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  .project-link:hover {
+    color: #0056b3;
+  }
+  .project-title {
+    font-weight: bold;
+    font-size: 1.2rem; /* Si tu veux l'ajuster, tu peux changer la taille ici */
+    color: #333; /* Tu peux aussi personnaliser la couleur si nécessaire */
+  }
+  
