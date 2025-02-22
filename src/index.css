@@ -94,7 +94,7 @@ code {
 .color_sec {
     color: var(--secondary-color);
 } */
-:root {
+ :root {
     --bg-color: #0c0c0c; /* Fond sombre par défaut */
     --primary-color: #0d0d0d;
     --secondary-color: #fff;

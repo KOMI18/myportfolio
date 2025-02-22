@@ -1,3 +1,5 @@
+import { FaReact, FaNodeJs, FaPhp, FaGithub } from "react-icons/fa";
+import { SiFlutter, SiMongodb } from "react-icons/si";
 const logotext = "Parfait Kom";
 const meta = {
     title: "Parfait kom",
@@ -47,32 +49,41 @@ const worktimeline = [
 const skills = [{
         name: "Flutter",
         value: 100,
+        icon :  <SiFlutter style={{ color: "#02569B" }} />
+
     },
     {
         name: "Node.Js",
         value: 100,
+        icon :  <FaNodeJs style={{ color: "#339933" }} />
     },
     {
         name: "React.JS",
         value: 100,
+        icon : <FaReact style={{ color: "#61DAFB" }} /> 
     },
     {
         name: "Natif Php",
         value: 100,
+        icon : <FaPhp style={{ color: "#777BB4" }} />
     },
     {
         name: "Git , GitHUb",
         value: 100,
+        icon :  <FaGithub style={{ color: "#333" }} /> 
+
+
     },
     {
-        name: "MongoBd",
-        value: 100,
+        name: "MongoDb",
+        value: 100, 
+        icon :  <SiMongodb style={{ color: "#47A248" }} />
     },
 ];
 
 const services = [{
     title: "Création d'application mobile",
-    description: "Je conçois des applications mobiles fluides et performantes, adaptées à vos besoins et offrant une expérience utilisateur optimale. Avec des technologies modernes comme Flutter et React Native, vos idées prennent vie sur iOS et Android.",
+    description: "Je conçois des applications mobiles fluides et performantes, adaptées à vos besoins et offrant une expérience utilisateur optimale. Avec Flutter , vos idées prennent vie sur iOS et Android.",
 },
 {
     title: "Création de sites web",
@@ -130,9 +141,9 @@ const contactConfig = {
     description: "Que vous ayez une question, un projet en tête, ou simplement envie de discuter de collaboration, n'hésitez pas à me contacter. Je suis toujours ouvert aux nouvelles opportunités et prêt à vous accompagner dans vos projets technologiques. Remplissez le formulaire ou contactez-moi directement par email, et je reviendrai vers vous dans les plus brefs délais ! ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "service_evh08ne",
+    YOUR_TEMPLATE_ID: "template_2k65re8",
+    YOUR_USER_ID: "vzeV7F7Fu9dughDyi",
 };
 
 const socialprofils = {

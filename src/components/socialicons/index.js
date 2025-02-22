@@ -10,7 +10,7 @@ import {
   FaInstagram,
   FaSnapchatGhost,
   FaTiktok,
-  FaCircle
+  FaCircle,
 } from "react-icons/fa";
 import { socialprofils } from "../../content_option";
 

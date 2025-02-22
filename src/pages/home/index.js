@@ -31,7 +31,7 @@ export const Home = () => {
                         introdata.animated.second,
                         introdata.animated.third,
                         introdata.animated.four,
-                        introdata.animated.last,
+                        introdata.animated.l,
                         
                       ],
                       autoStart: true,

@@ -37,9 +37,9 @@
 
 .progress .progress-value {
     position: absolute;
-    top: -30px;
+    top: -55px;
     right: 8px;
-    font-size: 17px;
+    font-size: 40px;
     font-weight: bold;
     font-style: italic;
     color: var(--text-color);
