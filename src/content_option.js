@@ -1,13 +1,13 @@
 import { FaReact, FaNodeJs, FaPhp, FaGithub } from "react-icons/fa";
 import { SiFlutter, SiMongodb } from "react-icons/si";
-const logotext = "Parfait Kom";
+const logotext = "Komi Dev";
 const meta = {
     title: "Parfait kom",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    description: "Passionné par le développement web Parfait kom komiDEV komi et mobile",
 };
 
 const introdata = {
-    title: "Je suis Tehem kom parfait",
+    title: "Hi, je suis Parfait Kom. Mais tu peux m'appeler Komi.😀",
     animated: {
         first: " J'aime Coder, apprendre et évoluer",
         second: "Développeur Web & Mobile passionné",
