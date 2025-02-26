@@ -91,7 +91,7 @@
   }
   
   .project-card {
-    background-color: #fff;
+    background-color:var(--overlay-color);
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -113,10 +113,13 @@
   .project-content {
     padding: 20px;
   }
-  
+  .tx{
+    color: var(--secondary-color);
+    
+  }
   .project-description {
     font-size: 1rem;
-    color: #333;
+    color: var(--secondary-color);
     margin-bottom: 15px;
   }
   
@@ -133,7 +136,7 @@
   .project-title {
     font-weight: bold;
     font-size: 1.2rem; /* Si tu veux l'ajuster, tu peux changer la taille ici */
-    color: #333; /* Tu peux aussi personnaliser la couleur si nécessaire */
+    color: var(--secondary-color); /* Tu peux aussi personnaliser la couleur si nécessaire */
   }
   .modal-overlay {
     position: fixed;
@@ -149,7 +152,7 @@
   }
   
   .modal-content {
-    background: var(--overlay-color);
+    background: var(--bg-color);
     width: 60%; 
     height: 100%;
     padding: 20px;

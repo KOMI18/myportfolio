@@ -36,7 +36,8 @@ export const Activities = () => {
                 <p className="project-title">{data.title}</p>
                 <p className="project-description">{data.description}</p>
                 <button
-                  className="p-2 bg-blue-600 text-white rounded"
+                  className="navbar-brand nav_ac"
+
                   onClick={() => setSelectedEvent(data)}
                 >
                   Voir

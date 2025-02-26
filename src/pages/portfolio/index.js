@@ -65,7 +65,7 @@ export const Portfolio = () => {
                 <div className="project-content">
                   <p className="project-title">{data.title}</p> 
                   <p className="project-description">{data.description}</p>
-                  <a href={data.link} className="project-link">Voir le projet</a>
+                  <a href={data.link} className="navbar-brand nav_ac">Voir le projet</a>
                 </div>
               </div>
             );

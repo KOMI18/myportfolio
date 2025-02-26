@@ -125,7 +125,7 @@ const dataportfolio = [
     {
         title:"TogetSuite Bar",
         img: "/bar.png",
-        description: "Un application web de gestion des Snack bar : Stock , vente , ristourne, avarie,Impot",
+        description: "Un application web de gestion des Snacks bar : Stock , vente , ristourne, avarie,Impot",
         link: "https://cosmopharmalindustry.com/bragherstudio.suite-ba/pages/user_login.php",
     },
     {
@@ -137,7 +137,7 @@ const dataportfolio = [
     {
         title:"SuiteSale",
         img: "/suitesale.png",
-        description: "Une appliction web ecommerce specialise dans la vente des produit vivrie frais ",
+        description: "Une appliction web ecommerce specialisée dans la vente des produits vivrié frais ",
         link: "https://cosmopharmalindustry.com/suitesale/app/Pages/Login.php",
     },
     {
