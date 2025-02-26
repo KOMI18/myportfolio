@@ -25,28 +25,41 @@ const dataabout = {
 };
 const worktimeline = [
     {
-        jobtitle: "Stagiaire Développeur web",
-        where: "TOGETTECH",
-        date: "AOUT 2023 - OCT 2023",
+        jobtitle: "Développeur backend",
+        where: "YIEL",
+        date: "OCT 2024 - Maintenant",
+        link: "https://yielgroup.com/",
+
+    },
+    {
+        jobtitle: "Développeur Mobile Flutter (Freelance)",
+        where: "MENOSIE",
+        date: "DEC 2024 - Jan 2025",
+        link: "https://menosi.net"
+
+    },
+    {
+        jobtitle: "Développeur Mobile Flutter (CDD)",
+        where: "TheProgrammer",
+        date: " SEP 2024 - JAN 2025",
+        link: "https://theprogrammeragency.com/en"
     },
     {
         jobtitle: "Développeur web & Mobile",
         where: "TOGETTECH",
         date: " OCT 2023 - Maintenant",
+        link: "https://cm.linkedin.com/company/togettech-inc"
     },
     {
-        jobtitle: "Développeur Mobile Flutter",
-        where: "TheProgrammer",
-        date: " SEP 2024 - JAN 2025",
-    },
-    {
-        jobtitle: "Développeur Mobile Flutter",
-        where: "MENOSIE",
-        date: "DEC 2024 - Maintenant",
+        jobtitle: "Stagiaire Développeur web",
+        where: "TOGETTECH",
+        date: "AOUT 2023 - OCT 2023",
+        link: "https://cm.linkedin.com/company/togettech-inc"
     },
 ];
 
-const skills = [{
+const skills = [
+    {
         name: "Flutter",
         value: 100,
         icon :  <SiFlutter style={{ color: "#02569B" }} />
@@ -133,19 +146,71 @@ const dataportfolio = [
         description: "Une application mobile de gestion des depense",
         link: "https://proejet-firebase.web.app/welcome",
     },
+    {
+        title:"Flutter Starter",
+        img: "/starter.png",
+        description: "Un package qui permet de debuter rapidement un projet flutter",
+        link: "https://github.com/KOMI18/flutter_starter/tree/master",
+    },
+    {
+        title:"Mints",
+        img: "/mints.png",
+        description: "Une plateForme qui apporte de l'eau au population des zones défavorisées",
+        link: "https://mints-beryl.vercel.app/",
+    },
+    {
+        title:"Mon Portfolio",
+        img: "/folio.png",
+        description: "Mon site web personnel pour présenter mes compétences et réalisations",
+        link: "https://parfaitkom.vercel.app/",
+    },
 ];
 
 const contactConfig = {
     YOUR_EMAIL: "tehemparfait@gmail.com",
     YOUR_FONE: "+237 695511268",
     description: "Que vous ayez une question, un projet en tête, ou simplement envie de discuter de collaboration, n'hésitez pas à me contacter. Je suis toujours ouvert aux nouvelles opportunités et prêt à vous accompagner dans vos projets technologiques. Remplissez le formulaire ou contactez-moi directement par email, et je reviendrai vers vous dans les plus brefs délais ! ",
-    // creat an emailjs.com account 
-    // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_evh08ne",
     YOUR_TEMPLATE_ID: "template_2k65re8",
     YOUR_USER_ID: "vzeV7F7Fu9dughDyi",
 };
+const event = [
+    {   
+        id:1,
+        title:"Yaounde City Hack",
+        img: "cityh3.jpeg",
+        link:"https://www.linkedin.com/posts/citscmm_yaoundeinnovationweek-doualainnovationweek-ugcPost-7217860445540413440-DZ61?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEGh9X0BOEU8sF22OqiGDBxyE9fAbkCQVes",
+        description: "Hackathon intense de 48h organise par Montain Hub",
+        detail:"J’ai eu l’occasion de participer au CITY HACK Yaoundé sous le thème :«Pont de l'Innovation : Accélération des Talents Technologiques et Externalisation au Cameroun»Cet événement s'est tenu sous la forme d’un hackathon de 48 heures à l’hôtel Mont Febe.Ça a vraiment été une expérience particulière pour moi. J’ai beaucoup appris et j’ai rencontré des personnes passionnées par le monde de la tech.J’encourage vraiment tout le monde à participer à ce type d’événements pour pouvoir stimuler ses compétences et développer l’esprit d’équipe.Je remercie grandement CITSCM pour l’organisation et TOGETTECH pour l’opportunité.",
+        images:[
+            'cityh2.jpeg',
+            'cityh1.jpeg',
+        ]
+    },
+    {   
+        id:2,
+        title:"Cameroon International Tech Summit (CITS)",
+        img: "nh1.jpeg",
+        link:"https://www.linkedin.com/posts/parfait-kom-a25925268_cits24-challenge-hackathon-activity-7249161619618902016-U1aV?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEGh9X0BOEU8sF22OqiGDBxyE9fAbkCQVes",
+        description: "Hackathon intense de 72h",
+        detail:"Du 25 au 28 octobre dernier, nous avons participé à un hackathon intense de 72 heures sur le thème : “E-gouvernance : Utilisation limitée des technologies dans la promotion de l’environnement durable et des ressources naturelles”. Comme dans l’essence même d’un hackathon, chaque équipe avait un thème “surprise”, et l’objectif après les 72 heures était de développer un MVP : Minimum Valuable Product (oui, je n’ai pas fait d’erreur, j’ai bien dit Minimum VALUABLE Product), car le but n’est pas seulement de créer une solution innovante, mais de créer une solution qui a de la valeur et qui résout un problème réel.Sachant cela, notre objectif principal était de trouver une solution rentable à un problème réel lié à la E-gouvernance, plus précisément dans le domaine de l’environnement et des ressources naturelles. Pour cela, nous nous sommes basés sur les ODD (Objectifs de Développement Durable) et le SND30.Petite anecdote : Nous avons pratiquement passé 35 heures avec une solution, mais aucun problème à résoudre 😂.Après plusieurs heures de réflexion et de remise en question, nous avons développé une solution visant à rendre accessible, via des ONG, l’eau potable et l’énergie aux populations des zones rurales grâce à de l’imagerie satellite. Le concept est simple 👍 :On sélectionne un cours d’eau sur la carte et, grâce à des modèles mathématiques, nous fournissons des informations sur ce cours d’eau :Peut-on creuser un forage dans cette zone ?Ce cours d’eau est-il éligible pour y construire un mini barrage électrique ? Malgré tous nos efforts, mon équipe et moi n’avons pas eu la chance et la bonne formule pour obtenir le “saint graal”. Ce fut une expérience inoubliable, car au-delà d’une compétition, j’ai rencontré des personnes géniales, passionnées par la tech, et aussi beaucoup de mentors très inspirants.Pour cela, je tiens à remercier le Magic Man Ayuk Etta toute son équipe de MountainHub tous les mentors et les sponsors qui ont organisé le plus grand événement tech du Cameroun.On se vois au CITS25 🦾",
+        images:[
+            'nh2.jpeg',
+            'nh3.jpeg',
+            'nh4.jpeg',
 
+        ]
+    },
+    {   
+        id:2,
+        title:"ZTF Excellence Awards 2024",
+        img: "ztf.jpeg",
+        link:"https://www.linkedin.com/posts/parfait-kom-a25925268_cits24-challenge-hackathon-activity-7249161619618902016-U1aV?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEGh9X0BOEU8sF22OqiGDBxyE9fAbkCQVes",
+        description: "Prix ZTF awards pour les Etudiants entrepreneurs",
+        detail:"En collaboration avec deux camarades, nous avons développé une application mobile destinée à aider les élèves des lycées et collèges du Cameroun à se préparer aux examens. Présentée au prix de l'excellence ZTF à Yaoundé, cette application permet aux étudiants d'accéder facilement aux anciennes épreuves d'examen, qu'elles soient nationales ou provenant des grands collèges du pays. Grâce à des fonctionnalités telles que le filtrage par année ou matière, le téléchargement des épreuves et des ressources comme les corrigés, elle offre un outil pratique pour la révision. Développée avec [technologies utilisées, par exemple Flutter], l'application vise à améliorer la préparation aux examens en fournissant aux élèves un accès direct à des ressources essentielles pour réussir.",
+        images:[]
+    },
+]
 const socialprofils = {
     github: "https://github.com/KOMI18",
     facebook: "https://facebook.com",
@@ -159,6 +224,7 @@ export {
     worktimeline,
     skills,
     services,
+    event,
     introdata,
     contactConfig,
     socialprofils,

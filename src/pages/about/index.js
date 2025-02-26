@@ -9,6 +9,7 @@ import {
   skills,
   services,
 } from "../../content_option";
+import { Link } from "react-router-dom";
 
 export const About = () => {
   return (
@@ -46,7 +47,11 @@ export const About = () => {
                   return (
                     <tr key={i}>
                       <th scope="row">{data.jobtitle}</th>
-                      <td>{data.where}</td>
+                      <td>
+                        <a href={data.link} target="_blank" rel="noopener noreferrer" className="navbar-brand nav_ac">
+                          {data.where}
+                        </a>
+                      </td>
                       <td>{data.date}</td>
                     </tr>
                   );
