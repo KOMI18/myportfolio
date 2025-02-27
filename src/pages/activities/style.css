@@ -161,7 +161,29 @@
     overflow-y: auto; /* Ajoute le scroll vertical */
     max-height: 100vh; /* Ne dépasse pas la hauteur de l'écran */
 }
+.modal-content::-webkit-scrollbar {
+    width: 4px; /* Largeur de la barre de défilement */
+}
 
+.modal-content::-webkit-scrollbar-track {
+    background:var(--bg-color); /* Couleur de fond de la scrollbar */
+    border-radius: 10px;
+}
+
+.modal-content::-webkit-scrollbar-thumb {
+    background:var(--bg-color); /* Couleur de la barre */
+    border-radius: 10px;
+}
+
+.modal-content::-webkit-scrollbar-thumb:hover {
+    background: var(--bg-color); /* Couleur au survol */
+}
+
+/* Pour Firefox */
+.modal-content {
+    scrollbar-width: thin;
+    scrollbar-color: var(--text-color-3) var(--bg-color); /* Couleur de la barre et du fond */
+}
   
 .close-button {
     position: absolute;

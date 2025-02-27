@@ -82,7 +82,28 @@
 .portfolio-section {
     padding: 60px 0;
   }
-  
+  .portfolio-section  {
+    scrollbar-width: thin;
+    scrollbar-color: var(--text-color-3) var(--bg-color); /* Couleur de la barre et du fond */
+} 
+.portfolio-section::-webkit-scrollbar {
+  width: 4px; /* Largeur de la barre de défilement */
+}
+
+.portfolio-section::-webkit-scrollbar-track {
+  background:var(--bg-color); /* Couleur de fond de la scrollbar */
+  border-radius: 10px;
+}
+
+.portfolio-section::-webkit-scrollbar-thumb {
+  background:var(--bg-color); /* Couleur de la barre */
+  border-radius: 10px;
+}
+
+.portfolio-section::-webkit-scrollbar-thumb:hover {
+  background: var(--bg-color); /* Couleur au survol */
+}
+
   .projects-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));

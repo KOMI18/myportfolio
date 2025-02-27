@@ -54,7 +54,8 @@ export const Activities = () => {
                 initial={{ x: "-100%" }}
                 animate={{ x: 0 }}
                 exit={{ x: "-100%" }}
-                transition={{ type: "spring", stiffness: 100 }}
+                
+                transition={{ type: "tween", stiffness: 100 }}
                 className="modal-content overflow-y-auto max-h-screen"
                 onClick={(e) => e.stopPropagation()} 
                 >
